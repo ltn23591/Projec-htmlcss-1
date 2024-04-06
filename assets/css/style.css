@@ -614,6 +614,7 @@ a {
 }
 
 .footer .social-link {
+    background: #F9F9F9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -621,6 +622,11 @@ a {
     height: 28px;
 }
 
+.footer .social-link + .social-link{
+    margin-left: 16px;
+}
+
 .footer .social-link:hover {
     opacity: 0.6;
+    
 }
