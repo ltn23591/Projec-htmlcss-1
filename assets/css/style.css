@@ -43,8 +43,11 @@ a {
     padding-top: 26px;
     top: -26px;
 }
-.header {
+.hero-wrap {
     background: #e6f0ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     height: calc(100vh - 96px);
 }
@@ -108,14 +111,15 @@ a {
     border-radius: 8px;
 }
 
-.hero {
+.hero-wrap {
     padding-top: 130px;
 }
-.hero .info {
+.hero-wrap .info {
     width: 51%;
+    padding-bottom: 157px;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
@@ -125,7 +129,7 @@ a {
     margin-bottom: 8px;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-family: Poppins;
     font-size: 6.4rem;
